@@ -19,14 +19,15 @@
     border-radius: 4px;
     cursor: pointer;
     align-items: center;
-    
+
 }
 
 .btn1:hover {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    background-color: #a19f9f;
+    background-color: #FFFFFF;
     color: #469165;
 }
+
 .btn2 {
     padding: 12px 16px;
     white-space: nowrap;
@@ -40,7 +41,7 @@
     align-items: center;
     height: 52px;
     margin: 16px;
-    
+
 }
 
 .btn2:hover {
@@ -48,9 +49,10 @@
     background-color: #FFFFFF;
     color: #469165;
 }
+
 .btn3 {
     padding: 12px 16px;
-    background:transparent;
+    background: transparent;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
@@ -66,6 +68,7 @@
     background-color: #FFFFFF;
     color: #469165;
 }
+
 .header-continer {
     padding: 16px 120px;
     display: flex;
@@ -102,12 +105,14 @@
     padding: 8px 12px;
     margin: 0 auto;
 }
-.hero-text-continer{
+
+.hero-text-continer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 16px;
 }
+
 .hero-top-text .icon-redious {
     width: 16px;
     height: 16px;
@@ -118,25 +123,29 @@
     align-items: center;
     justify-content: center;
 }
+
 .icon-redious .span2 {
     width: 12px;
     height: 12px;
     background: #7dad90;
     border-radius: 50%;
 }
+
 .icon-redious .span1 {
     width: 6px;
     height: 6px;
     background: #3b8f5b;
     border-radius: 50%;
 }
-.hero-top-text p{
+
+.hero-top-text p {
     font: 16px;
     font-weight: 500;
     color: #469165;
     margin-left: 6px;
 }
-.heading h1{
+
+.heading h1 {
     font-size: 72px;
     font-weight: bold;
     line-height: 84px;
@@ -144,14 +153,79 @@
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.heading h1 span{
+
+.heading h1 span {
     color: #30B868;
 }
-.hero-text p{
+
+.hero-text p {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 24px;
 }
-.hero-button{
-    margin-top: 32px
+
+.hero-button {
+    margin-top: 32px;
+
+}
+
+.nodes {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nodes-headding h1 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.nodes-headding p {
+    color: #627382;
+    line-height: 20px;
+}
+
+.card-continer {
+    max-width: 1360px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 120px;
+    margin-top: 44px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+}
+
+.box-img {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px 0 2px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
