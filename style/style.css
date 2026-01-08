@@ -240,7 +240,7 @@
 }
 
 .brain-content {
-    padding: 102px 0;
+    padding-top: 102px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -274,4 +274,28 @@
     background-position: left center;
     background-size: 20px 20px;
     margin-bottom: 10px;
+}
+.ready{
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 120px;
+    padding: 80px 40px;
+}
+.ready-top-cotent{
+    margin-bottom: 24px;
+}
+.ready-top-cotent h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.ready-top-cotent p{
+    color: #627382;
+    line-height: 24px;
+}
+.ready-button-p{
+    color: #627382;
+    line-height: 20px;
 }
