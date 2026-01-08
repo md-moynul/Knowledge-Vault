@@ -229,3 +229,49 @@
     line-height: 20px;
     color: #627382;
 }
+
+.second-brain {
+    margin: 120px;
+}
+
+.continer {
+    display: flex;
+    gap: 60px;
+}
+
+.brain-content {
+    padding: 102px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.brain-content .solution {
+    color: #469165;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.brain-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.brain-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.brain-content .info {
+    line-height: 20px;
+    color: #627382;
+}
+
+.brain-content li {
+    padding-left: 26px;
+    background-image: url("../assets/CheckCircle.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    margin-bottom: 10px;
+}
