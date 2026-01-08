@@ -299,3 +299,25 @@
     color: #627382;
     line-height: 20px;
 }
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    color: #FFFFFF;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-top a{
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.footer-buttom{
+    text-align: center;
+}
