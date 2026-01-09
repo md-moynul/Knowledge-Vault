@@ -96,7 +96,12 @@
     background: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
 }
-
+.hero-text-continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
 .hero-top-text {
     background-color: #FFFFFF;
     max-width: 229px;
@@ -106,12 +111,6 @@
     margin: 0 auto;
 }
 
-.hero-text-continer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 16px;
-}
 
 .hero-top-text .icon-redious {
     width: 16px;
@@ -134,14 +133,14 @@
 .icon-redious .span1 {
     width: 6px;
     height: 6px;
-    background: #3b8f5b;
+    background: #469165;
     border-radius: 50%;
 }
 
 .hero-top-text p {
     font: 16px;
     font-weight: 500;
-    color: #469165;
+    color: #3c9461;
     margin-left: 6px;
 }
 
@@ -199,7 +198,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     gap: 16px;
     padding: 24px;
     width: 322px;
@@ -207,15 +206,19 @@
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
 }
-
+.card img{
+   
+}
 .box-img {
     width: 60px;
     height: 60px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
     background-color: #F95555;
     border-radius: 50%;
-    text-align: center;
-    align-items: center;
-    padding: 20px 20px 0 2px;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 .card h3 {
